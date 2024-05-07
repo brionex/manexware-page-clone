@@ -1,0 +1,17 @@
+---
+interface Props {
+  title: string
+  description: string
+  icon: string
+}
+
+const { title, description, icon } = Astro.props
+---
+
+<article
+  class="flex flex-col gap-2 text-sm text-center"
+>
+  <i class={`${icon} text-2xl text-blue-900`}></i>
+  <h3 class="text-blue-900 font-bold">{title}</h3>
+  <p class="overflow-hidden">{description}</p>
+</article>

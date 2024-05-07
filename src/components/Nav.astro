@@ -1,0 +1,63 @@
+<nav
+  class="flex-grow flex gap-10 items-center justify-end lg:justify-start group/nav"
+>
+  <input type="checkbox" id="chk" hidden aria-hidden="true" />
+  <label
+    class="text-2xl lg:hidden text-slate-500 hover:text-blue-900"
+    for="chk"
+  >
+    <i class="fa-solid fa-bars"></i>
+  </label>
+
+  <section
+    class="hidden group-has-[:checked]/nav:flex bg-white/50 backdrop-blur-sm fixed inset-0 z-10 lg:flex lg:static lg:flex-grow"
+  >
+    <label for="chk" class="absolute inset-0 lg:hidden"></label>
+    <div
+      class="bg-white w-[min(max-content,100%)] absolute right-0 m-5 border-2 border-slate-400 p-5 rounded-lg lg:static lg:flex lg:border-none lg:m-0 lg:p-0 lg:w-full lg:flex-grow lg:justify-between lg:gap-5"
+    >
+      <label
+        class="text-2xl absolute right-[20px] lg:hidden text-slate-500 hover:text-blue-900"
+        for="chk"
+        ><i class="fa-solid fa-xmark"></i>
+      </label>
+      <ul
+        class="nav-links flex flex-col gap-5 hover:*:text-black *:text-nowrap font-medium lg:flex-row lg:items-center"
+      >
+        <li class="text-black">
+          <a href="/">Inicio</a>
+        </li>
+        <li>
+          <a href="/solutions">Soluciones</a>
+        </li>
+        <li>
+          <a href="#">Servicios</a>
+        </li>
+        <li>
+          <a href="#">Sobre nosotros</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Empleos</a>
+        </li>
+      </ul>
+      <hr class="my-5 border-slate-400" />
+      <div
+        class="flex flex-wrap items-center gap-5 font-medium lg:flex-nowrap *:cursor-pointer"
+      >
+        <a
+          href="#"
+          class="px-4 py-1 border rounded-md border-slate-400 hover:text-black"
+          >Identificarse</a
+        >
+        <a
+          href="#"
+          class="bg-blue-900 px-4 py-1 rounded-md text-slate-200 hover:bg-blue-800 hover:text-white"
+          >Contáctanos</a
+        >
+      </div>
+    </div>
+  </section>
+</nav>

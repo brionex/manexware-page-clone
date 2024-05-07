@@ -1,0 +1,38 @@
+[
+  {
+    "title": "CRM",
+    "description": "Centraliza la información y los procesos relacionados con los clientes en una sola plataforma. Esto facilita la colaboración entre equipos.",
+    "link": "#",
+    "icon": "fa-solid fa-cubes"
+  },
+  {
+    "title": "Punto de Venta",
+    "description": "Solución integral para la gestión de ventas en tiendas físicas o en línea. Ofrece una interfaz sencilla y amigable para el usuario.",
+    "link": "#",
+    "icon": "fa-solid fa-cart-shopping"
+  },
+  {
+    "title": "Contabilidad",
+    "description": "Registra, automatiza y genera informes detallados al instante, brindándote el control total de tus transacciones.",
+    "link": "#",
+    "icon": "fa-solid fa-chart-column"
+  },
+  {
+    "title": "Recursos Humanos",
+    "description": "Integra de manera óptima con otros módulos esenciales como Contabilidad, Ventas y Producción, brindando una visibilidad clara de tus procesos.",
+    "link": "#",
+    "icon": "fa-solid fa-user"
+  },
+  {
+    "title": "E-commerce",
+    "description": "Te permitirá llegar a un público global las 24 horas del día, reduciendo costos operativos al no necesitar de un espacio físico.",
+    "link": "#",
+    "icon": "fa-solid fa-wifi"
+  },
+  {
+    "title": "Proyectos",
+    "description": "Un sistema de gestión de proyectos te permite organizar y realizar un seguimiento de todos tus proyectos de manera centralizada.",
+    "link": "#",
+    "icon": "fa-solid fa-file-lines"
+  }
+]

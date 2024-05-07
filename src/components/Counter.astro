@@ -1,0 +1,13 @@
+<button class="alert">¡Haz Click!</button>
+
+<script>
+  // Encuentra todos los botones con la clase `alert` en la página.
+  const buttons = document.querySelectorAll('button.alert');
+
+  // Maneja los clics en cada botón.
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      alert('¡El botón ha sido clickeado!');
+    });
+  });
+</script>

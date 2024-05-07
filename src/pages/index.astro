@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { HeaderSlider } from '../components/HeaderSlider'
+import TopHeader from '../components/TopHeader.astro'
+import GuideLine from '../components/GuideLine.astro'
+import CardService from '../components/CardService.astro'
+
+import guideLines from '../services/guideLines.json'
+import manexServices from '../services/manexServices.json'
+---
+
+<Layout title="ERP y CRM en Ecuador: Maximiza Resultados">
+  <TopHeader />
+  <HeaderSlider client:visible />
+
+  <main>
+    <div class="c-container mx-auto flex flex-col gap-y-20 md:gap-y-28 py-28">
+      <section class="flex flex-col gap-y-20">
+        <h1
+          class="text-4xl text-center text-blue-900 font-bold italic text-pretty w-full"
+        >
+          ¡No pierdas más tiempo en tareas administrativas, deja que nuestro ERP
+          lo haga por ti!
+        </h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-10 justify-between">
+          {guideLines.map((data) => <GuideLine {...data} />)}
+        </div>
+      </section>
+
+      <section class="flex flex-wrap gap-5 justify-center">
+        {manexServices.map((data) => <CardService {...data} />)}
+      </section>
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Reduce costos",
+    "description": "Optimiza tus procesos, reduce costos y aumenta tus ingresos.",
+    "icon": "fa-solid fa-rotate"
+  },
+  {
+    "title": "Gestiona tus recursos",
+    "description": "Aumenta tu capacidad de repuesta, adaptabilidad y recursos.",
+    "icon": "fa-solid fa-database"
+  },
+  {
+    "title": "Toma decisiones informadas",
+    "description": "Conoce al instante cómo se está desempeñando tus actividades.",
+    "icon": "fa-solid fa-laptop"
+  }
+]
